@@ -161,9 +161,12 @@
           top: 0px;
           margin-top: 0px;
       }
+      .left img{
+        right: 0px;
+      }
 
       .left span {
-          width: 420px;
+          width: 310px;
           text-align: center;
       }
 
@@ -174,11 +177,24 @@
           margin-top: -21px;
       }
       .right .form{
-        width: 366px;
+        width: 345px;
       }
 
       .foot {
           font-size: 18px;
           width: 346px;
       }
+  }
+
+
+  @media only screen and (max-width:400px){
+
+
+.left{
+    margin: 0px auto;
+}
+.right .form{
+    margin-top: 45px;
+}
+
   }
