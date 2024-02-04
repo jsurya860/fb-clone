@@ -1,0 +1,152 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  body {
+      background: #f0f2f5;
+
+  }
+
+  .container {
+
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      background: #f0f2f5;
+  }
+
+  .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      position: relative;
+      bottom: 120px;
+      left: 255px;
+      width: 50%;
+      padding: 0px 44px;
+      margin:auto;
+
+  }
+
+  .left img {
+      position: relative;
+      height: 106px;
+      right: 24px;
+
+  }
+
+  .left span {
+
+      width: 73%;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+
+  }
+
+  .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      right: 75px;
+      bottom: px;
+      margin: auto;
+      width: 60%;
+
+
+  }
+
+  .right .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 23px;
+
+  }
+
+  .form {
+      background: white;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 6px;
+      width: 405px;
+  }
+
+  input[type="password"] {
+      margin-top: 0px;
+
+  }
+
+  input {
+      width: 80%;
+      padding: 18px;
+      margin: 18px auto;
+      border: 1px solid rgb(221, 223, 226);
+      border-radius: 6px;
+
+  }
+
+  .log-btn {
+      border: 1px solid rgb(255, 254, 254);
+      border-radius: 5px;
+      width: 90%;
+      margin: 5px auto;
+      padding: 11px;
+      background: rgb(24, 119, 242);
+      color: white;
+      font-weight: bold;
+
+  }
+
+  .form a {
+      text-align: center;
+      color: #1877f2;
+      text-decoration: none;
+      margin: 9px auto;
+  }
+
+  hr {
+      margin: 11px 9px auto;
+      color: #1d4b88;
+      width: 90%;
+  }
+
+  .create-btn {
+      border: 1px solid rgb(255, 254, 254);
+      border-radius: 5px;
+      width: 60%;
+      margin: 21px auto;
+      padding: 11px;
+      background: rgb(66, 183, 42);
+      color: white;
+      font-weight: bold;
+
+  }
+
+  .foot {
+      display: block;
+      font-size: 18px;
+      padding: 5px;
+      margin: 11px 24px;
+
+
+
+
+  }
+
+
+  .foot a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
