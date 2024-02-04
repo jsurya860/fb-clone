@@ -30,7 +30,7 @@
       bottom: 120px;
       left: 255px;
       width: 50%;
-      padding: 0px 44px;
+
       margin: auto;
 
   }
@@ -159,25 +159,29 @@
           justify-content: center;
           left: 12px;
           top: 0px;
-          margin-top: 0px;
+          margin: auto;
       }
-      .left img{
-        right: 0px;
+
+      .left img {
+          height: 96px;
+          right: 0px;
       }
 
       .left span {
           width: 310px;
           text-align: center;
+          font-size: 18px;
       }
 
       .right {
           align-items: center;
           justify-content: center;
           left: 0px;
-          margin-top: -21px;
+          margin-top: 11px;
       }
-      .right .form{
-        width: 345px;
+
+      .right .form {
+          width: 345px;
       }
 
       .foot {
@@ -187,14 +191,57 @@
   }
 
 
-  @media only screen and (max-width:400px){
+  @media only screen and (max-width:500px) {
 
 
-.left{
-    margin: 0px auto;
-}
-.right .form{
-    margin-top: 45px;
-}
+      .left {
+          margin: 0px auto;
+      }
+
+      .left img {
+          height: 80px;
+      }
+
+      .left span {
+          width: 196px;
+          font-size: 14px;
+          line-height: 18px;
+      }
+
+      .right {
+          margin: 11px auto;
+          align-items: center;
+          justify-content: center;
+          align-self: center;
+      }
+
+      .right .form {
+
+          margin: 0px 5px;
+          width: 231px;
+
+      }
+
+      .foot {
+          font-size: 11px;
+          width: 213px;
+      }
+
+      input {
+          padding: 11px;
+          margin: 14px auto;
+
+      }
+
+      .log-btn {
+          padding: 9px;
+      }
+
+      .create-btn {
+          margin: 8px auto;
+          padding: 5px;
+          font-weight: 100;
+
+      }
 
   }
